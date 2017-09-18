@@ -26,7 +26,7 @@ class HttpServer
 
 	public function onWorkerStart($serv, $worker_id)
 	{
-		include './httpindex.php';
+		include_once './httpindex.php';
 	}
 
 	public function onRequest($request, $response)
